@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="web design ">
+    <meta name="keywords" content="front-end , web design">
+    <meta name="author" content="Sara Magdy">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- icon -->
+    <link rel="icon" type="image/png" href="assest/images/logo.png" />
+    <!-- fonts  -->
+    <script src="https://kit.fontawesome.com/faa8763f5d.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
+    <!-- styles  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link href="assest/css/hover.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="assest/css/style.css">
+    <!-- title -->
+    <title> blood-bank </title>
+</head>
+
+<body>
+    <!-- start upper-header -->
+    <section class="upper-header">
+        <div class="container">
+            <div class="row">
+                <div class=" col-6 col-md-4">
+                    <div class="create-log">
+                        <a href="create-account.html" class="cr">انشاء حساب جديد </a>
+
+                        <a href="login.html">الدخول </a>
+                    </div>
+                </div>
+                <div class="col-4 col-md-4">
+                    <div class="social text-center">
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                <div class="col-2 col-md-4">
+                    <div class="ar-en text-right">
+                        <p><span class="en">EN</span>
+                            <span class="ar">عربي</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End upper-header -->
+    <!-- start navbar -->
+    <section class="navbar-2">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"><img src="assest/images/logo.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active hvr-underline-reveal">
+                            <a class="nav-link " href="index.html">الرئيسيه <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item hvr-underline-reveal">
+                            <a class="nav-link" href="enter-request.html">عن بنك الدم </a>
+                        </li>
+                        <li class="nav-item hvr-underline-reveal">
+                            <a class="nav-link" href="details-article.html">المقالات </a>
+                        </li>
+                        <li class="nav-item hvr-underline-reveal">
+                            <a class="nav-link" href="donation-requests .html">طلبات التبرع </a>
+                        </li>
+                        <li class="nav-item  hvr-underline-reveal">
+                            <a class="nav-link" href="who-we.html">من نحن </a>
+                        </li>
+                        <li class="nav-item  hvr-underline-reveal">
+                            <a class="nav-link last" href="contact-us.html"> اتصل بنا </a>
+                        </li>
+                    </ul>
+                    <div class="log-btn-cr">
+                        <button class="btn my-2 my-sm-0"> <a href="donation-requests .html">طلب تبرع </a></button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <!-- End navbar -->
+    <!-- start breadcrumb -->
+    <section class="breadcrumb-header">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">الرئيسيه </a></li>
+                    <li class="breadcrumb-item active" aria-current="page"> طلبات التبرع </li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+
+    <!--End breadcrumb  -->
+    <!-- start section Donation-requests -->
+    <section class="Donation-requests page-donation">
+        <div class="order">
+            <h1 class="article-header text-center"><span> طلبات التبرع</span></h1>
+            <hr>
+        </div>
+        <div class="container page-request">
+            <div class="faction">
+                <div class="container">
+                    <div class="row">
+                        <div class=" col-12 col-md-2 text-right">
+                            <button><i class="fas fa-search"></i></button>
+                        </div>
+                        <div class="col-6 col-md-5 text-center">
+                            <div class="selecticon">
+                                <select>
+                                <option value="volvo">اختر المدينه </option>
+                                <option value="saab">السلام</option>
+                                <option value="opel">شوبرا </option>
+                                <option value="audi">المطريه</option>
+                            </select>
+
+                            </div>
+                        </div>
+                        <div class=" col-6 col-md-5 text-left">
+                            <select>
+                            <option value="volvo">اختر فصيله الدم</option>
+                            <option value="saab">A+</option>
+                            <option value="opel">B+</option>
+                            <option value="audi">AB</option>
+                        </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="all-special">
+                <div class="container">
+                    <div class="special ">
+                        <div class="row">
+                            <div class=" col-12 col-lg-6  col-md-3">
+                                <a href="#"><button class="btn detbtn">التفاصيل</button></a>
+                            </div>
+                            <div class=" col-4 col-lg-2 col-md-3">
+                                <h3>احمد محمد محمود</h3>
+                                <h3>القصر لعيني</h3>
+                                <h3> المنصوره</h3>
+
+                            </div>
+                            <div class=" col-4 col-lg-2 col-md-3">
+                                <h4>اسم الحاله </h4>
+                                <h4> المستشفي </h4>
+                                <h4>المدينه </h4>
+                            </div>
+                            <div class=" col-4 col-lg-2 col-md-3">
+                                <button class="btn b">B+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="special">
+                        <div class="row">
+                            <div class="col-12 col-lg-6   col-md-3">
+                                <a href="#"><button class="btn detbtn">التفاصيل</button></a>
+                            </div>
+                            <div class="col-4 col-lg-2 col-md-3">
+                                <h3>احمد محمد محمود</h3>
+                                <h3>القصر لعيني</h3>
+                                <h3> المنصوره</h3>
+
+                            </div>
+                            <div class="col-4 col-lg-2 col-md-3">
+                                <h4>اسم الحاله </h4>
+                                <h4> المستشفي </h4>
+                                <h4>المدينه </h4>
+                            </div>
+                            <div class="col-4 col-lg-2 col-md-3">
+                                <button class="btn b">A+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="special">
+                        <div class="row">
+                            <div class="col-12  col-lg-6   col-md-3">
+                                <a href="#"><button class="btn detbtn">التفاصيل</button></a>
+                            </div>
+                            <div class="col-4 col-lg-2 col-md-3">
+                                <h3>احمد محمد محمود</h3>
+                                <h3>القصر لعيني</h3>
+                                <h3> المنصوره</h3>
+
+                            </div>
+                            <div class="col-4 col-lg-2 col-md-3">
+                                <h4>اسم الحاله </h4>
+                                <h4> المستشفي </h4>
+                                <h4>المدينه </h4>
+                            </div>
+                            <div class="col-4 col-lg-2 col-md-3">
+                                <button class="btn b">AB</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="special">
+                        <div class="row">
+                            <div class="col-12  col-lg-6   col-md-3">
+                                <a href="#"><button class="btn detbtn">التفاصيل</button></a>
+                            </div>
+                            <div class="col-4 col-lg-2 col-md-3">
+                                <h3>احمد محمد محمود</h3>
+                                <h3>القصر لعيني</h3>
+                                <h3> المنصوره</h3>
+
+                            </div>
+                            <div class="col-4 col-lg-2 col-md-3">
+                                <h4>اسم الحاله </h4>
+                                <h4> المستشفي </h4>
+                                <h4>المدينه </h4>
+                            </div>
+                            <div class="col-4 col-lg-2 col-md-3">
+                                <button class="btn b">O-</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 ">
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination">
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Previous">
+                                            <span aria-hidden="true"><i class="fas fa-chevron-left"></i> </span>
+                                        </a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item active"><a class="page-link" href="#">2<span class="sr-only">(current)</span></a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">6</a></li>
+
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Next">
+                                            <span aria-hidden="true"><i class="fas fa-chevron-right"></i></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End section Donation-requests -->
+    <!-- start section  footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class=" col-12 col-md-3">
+                    <h3 class="available"> متوفر علي</h3>
+                    <img src="assest/images/google1.png" class="av">
+                    <img src="assest/images/ios1.png" class="av">
+                </div>
+                <div class="col-6 col-md-3 home">
+                    <p>الرئيسيه</p>
+                    <p>عن بنك الدم </p>
+                    <p> المقالات </p>
+                    <p>طلبات التبرع </p>
+                    <p>من نحن </p>
+                    <p>اتصل بنا </p>
+
+                </div>
+                <div class="col-6 col-md-5">
+                    <div class="foo-logo"><img src="assest/images/logo.png"></div>
+                    <div class="bank">
+                        <h4>بنك الدم</h4>
+                        <p>هو مثال يمكن ان يستبدل في نفس المساحه لقد تم توليد هذا النص من مولد النص العربان يستبدل في نفس المساحه لقد تم توليد هذا النص من مولد النص العرب.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="bootom-footer">
+            <div class="container">
+                <div class="row">
+                    <div class=" col-lg-4 col-md-2 "></div>
+                    <div class=" col-lg-4 col-md-5">
+                        <p>جميع الحقوق محفوظه ل <span>بنك الدم </span> @2019</p>
+                    </div>
+
+                    <div class=" col-lg-4 col-md-5">
+                        <div class="social text-center">
+                            <a href="#"><i class="fab fa-whatsapp hvr-bob"></i></a>
+                            <a href="#"><i class="fab fa-twitter hvr-bob"></i></a>
+                            <a href="#"><i class="fab fa-instagram hvr-bob"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f hvr-bob"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End section  footer -->
+    <!-- End section footer -->
+    <button class="scrollToTop rounded-circle"><i class="fa fa-arrow-up hvr-float"></i></button>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assest/js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="assest/js/jquery.nicescroll.min.js"></script>
+    <!-- <script>
+        // getting data from API
+        $.get("https://cors-anywhere.herokuapp.com/http://ipda3-tech.com/blood-bank/api/v1/donation-requests?api_token=Zz9HuAjCY4kw2Ma2XaA6x7T5O3UODws1UakXI9vgFVSoY3xUXYOarHX2VH27", function(obj) {
+            console.log(obj["data"].last_page);
+
+
+            const pages = obj["data"].last_page;
+            for (i = 1; i < pages; i++) {
+                const li = '<li class="page-item"><a class="page-link" href="#">' + i + '</a></li>';
+                $('.pagination').append(li);
+            };
+
+            obj["data"].data.forEach(function(singleElement) {
+                const div = '<div class="row background-div "><div class="col-lg-2"><div class="blood-type border-circle"><div class="blood-txt">' + singleElement.blood_type.name + '</div></div></div><div class="col-lg-7"><ul class="order-details"><li class="cutom-display">   اسم الحالة:</li><span class="cutom-display">' + singleElement.patient_name + '</span> <br><li class="cutom-display custom-padding">  مستشفي:</li><span class="cutom-display custom-padding">' + singleElement.hospital_name + '</span> <br><div class="adjust-position">  <li class="cutom-display ">  المدينة:</li><span class="cutom-display ">' + singleElement.city.name + '</span></div></ul></div><div class="col-lg-3"><a href="#"><button class="btn more2-btn">التفاصيل </button></a></div></div>';
+                $('.result').append(div);
+            });
+
+        });
+
+        // changing data based on page number
+        $(document).on('click', '.pagination a', function(e) {
+            e.preventDefault();
+
+
+            const val = $(this).html();
+
+            $(window).scrollTop(0);
+
+            $('.result').empty();
+
+            // getting data from API
+            $.get("https://cors-anywhere.herokuapp.com/http://ipda3-tech.com/blood-bank/api/v1/donation-requests?api_token=Zz9HuAjCY4kw2Ma2XaA6x7T5O3UODws1UakXI9vgFVSoY3xUXYOarHX2VH27&page=" + val, function(obj) {
+
+                obj["data"].data.forEach(function(singleElement) {
+                    const div = '<div class="row background-div "><div class="col-lg-2"><div class="blood-type border-circle"><div class="blood-txt">' + singleElement.blood_type.name + '</div></div></div><div class="col-lg-7"><ul class="order-details"><li class="cutom-display">   اسم الحالة:</li><span class="cutom-display">' + singleElement.patient_name + '</span> <br><li class="cutom-display custom-padding">  مستشفي:</li><span class="cutom-display custom-padding">' + singleElement.hospital_name + '</span> <br><div class="adjust-position">  <li class="cutom-display ">  المدينة:</li><span class="cutom-display ">' + singleElement.city.name + '</span></div></ul></div><div class="col-lg-3"><a href="#"><button class="btn more2-btn">التفاصيل </button></a></div></div>';
+                    $('.result').append(div);
+                });
+            });
+        });
+    </script> -->
+    <script src="assest/js/main.js"></script>
+</body>
+
+</htm
